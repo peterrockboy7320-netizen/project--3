@@ -44,3 +44,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+.button1 {
+    display: flex;
+    justify-content: center;
+}
