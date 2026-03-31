@@ -1,0 +1,46 @@
+.film {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    text-decoration: none;
+    display: flex;
+    margin-left: 115px;
+}
+
+h2 {
+    margin-left: 325px;
+}
+
+.h2 {
+    margin-left: 225px;
+    font-size: 24px;
+    font-family: Arial;
+    color: aqua;
+}
+
+.h {
+    font-size: 64px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+.films {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+.hl {
+    margin-left: 15px;
+    font-size: 24px;
+    font-family: Arial;
+    color: aqua;
+}
+
+
+
+body {
+    background-image: url('images/abstract-paper-style-background_23-2150758928.avif');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
