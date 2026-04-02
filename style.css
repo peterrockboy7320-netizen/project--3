@@ -44,7 +44,11 @@ body {
     background-size: cover;
     background-position: center;
 }
-.button1 {
+
+.a {
     display: flex;
     justify-content: center;
+    text-decoration: none;
+    font-size: 64px;
+    color: white;
 }
