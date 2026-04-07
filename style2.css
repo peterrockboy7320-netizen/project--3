@@ -56,33 +56,164 @@ h2 {
 
 
 .my-div {
-    display: flex; /* Делаем контейнер с кнопками флекс-боксом */
-    gap: 250px;     /* Задаем одинаковые отступы между кнопками */
+    display: flex;
+    /* Делаем контейнер с кнопками флекс-боксом */
+    gap: 250px;
+    /* Задаем одинаковые отступы между кнопками */
 }
+
+
+
+.my-button {
+    border-radius: 50%;
+    /* Делает кнопку идеально круглой */
+    height: 60px;
+    width: 60px;
+    cursor: grab;
+}
+
+.my-button:hover {
+    background-color: lightgreen;
+    transform: translateY(-3px);
+    /* Смещаем кнопку вверх на 3 пикселя */
+    cursor: grab;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my-1button {
+    border-radius: 7%;
+    /* Делает кнопку идеально круглой */
+    height: 40px;
+    width: 100px;
+    display: flex;
+    margin-top: 10px;
+    cursor: grab;
+    font-weight: bold;
+
+}
+
+.my-1button:hover {
+    background-color: lightgreen;
+    transform: translateY(-4px);
+    /* Смещаем кнопку вверх на 3 пикселя */
+    cursor: grab;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 64px;
+    color: white;
+    border-radius: 50%;
+    /* Делает кнопку идеально круглой */
+
+}
+
 .my-trap {
     text-decoration: none;
     font-size: 30px;
     color: red;
     display: flex;
     align-items: center;
-    cursor: pointer;     /* Меняем курсор при наведении */
+    cursor: grab;
+    /* Меняем курсор при наведении */
 }
 
-.my-button {
-    border-radius: 50%;  /* Делает кнопку идеально круглой */
-    height: 60px;
-    width: 60px;
-}
-.my-button:hover {
-    background-color: lightgreen;
-}
-
-.my-button1 {
-    border-radius: 10%;  /* Делает кнопку идеально круглой */
-    height: 60px;
-    width: 900px;
+.my-trap:hover {
+    cursor: grab;
+    transform: translateY(-3px);
+    color: lightgreen;
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.my-button1:hover {
-    background-color: lightgreen;
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
+footer {
+    margin: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    /* Это важно, чтобы padding не расширял блоки */
+    background-color: lightseagreen;
+}
+
+
+
+
+.main-footer {
+    width: 100%;
+    /* Растягиваем на всю ширину */
+    margin: 0;
+    /* Обнуляем внешние отступы (уберет щели по бокам) */
+    /* display: block;
+    /* Гарантируем, что это блочный элемент */
+
+}
+
+
+
+
+.contact-list {
+    list-style: none;
+    /* Убираем стандартные точки (маркеры) списка */
+    padding: 0;
+    /* Обнуляем внутренние отступы списка */
+    color: darkslateblue;
+}
+
+.contact-list li {
+    margin: 10px 0;
+    /* Делаем расстояние между строками контактов */
+}
+
+.contact-list a {
+    color: darkgreen;
+    /* Делаем ссылки голубыми */
+    text-decoration: none;
+    /* Убираем стандартное подчеркивание */
+    font-weight: 600;
+    /* Делаем шрифт "жирным" (как ты спрашивал) */
+    transition: color 0.3s;
+    /* Плавно меняем цвет при наведении */
+}
+
+.contact-list a:hover {
+    color: #ecf0f1;
+    /* При наведении ссылка станет почти белой */
+}
+
+
+
+
+
+
+
+
+
+
+
+.b {
+    text-decoration: none;
+    font-size: 64px;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }
